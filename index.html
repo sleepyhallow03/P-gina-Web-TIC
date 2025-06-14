@@ -16,7 +16,7 @@
         header {
             background: #35424a;
             color: #ffffff;
-            padding: 20px 0;
+            padding: 30px 0;
             text-align: center;
         }
         .container {
@@ -29,42 +29,55 @@
         }
         h1 {
             margin: 0;
-            font-size: 2em;
+            font-size: 2.2em;
             color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
         }
         h2 {
             color: #35424a;
             border-bottom: 2px solid #35424a;
             padding-bottom: 5px;
+            margin-top: 30px;
         }
         .main-img {
-            width: 100%;
+            width: 70%;
             height: auto;
-            margin: 20px 0;
-            border-radius: 5px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         footer {
             text-align: center;
             padding: 20px;
             background: #35424a;
             color: #ffffff;
-            margin-top: 20px;
+            margin-top: 30px;
+            font-size: 0.9em;
         }
         .benefits {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+            gap: 20px;
         }
         .benefit-card {
-            flex-basis: 30%;
-            margin-bottom: 20px;
-            padding: 15px;
-            background: #e2e2e2;
-            border-radius: 5px;
+            flex: 1 1 300px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .benefit-card:hover {
+            transform: translateY(-5px);
         }
         @media (max-width: 768px) {
-            .benefit-card {
-                flex-basis: 100%;
+            .container {
+                width: 90%;
+            }
+            .main-img {
+                width: 100%;
             }
         }
     </style>
@@ -77,7 +90,7 @@
     </header>
 
     <div class="container">
-        <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Tecnologías de Información" class="main-img">
+        <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Tecnologías de Información" class="main-img">
 
         <section>
             <h2>¿Qué son las TIC?</h2>
@@ -117,12 +130,14 @@
 
         <section>
             <h2>Futuro de las TIC en Informática</h2>
-            <p>El futuro de las TIC en informática apunta hacia tecnologías más integradas, con un mayor enfoque en la inteligencia artificial, computación cuántica y la interconexión total de dispositivos. La informática seguirá siendo el núcleo del desarrollo tecnológico en las próximas décadas.</p>
+            <p>El futuro de las TIC en informática apunta hacia tecnologías más integradas, con un mayor enfoque en la inteligencia artificial, computación cuántica y la interconexión total de dispositivos.</p>
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2023 Importancia de las TIC en la Informática | Diseñado para GitHub</p>
+        <p>&copy; 2025 Importancia de las TIC en la Informática | Diseñado por Angello Rodríguez</p>
     </footer>
+</body>
+</html>
 </body>
 </html>
